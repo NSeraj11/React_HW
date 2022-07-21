@@ -1,0 +1,155 @@
+.container{
+    margin:0;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .header h1{
+    text-align: center;
+}
+
+.firstandlast {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px; 
+    margin-right: 100px;
+}
+
+#fname{
+    position: relative;
+    left: 25px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+#lname{
+    position:relative;
+    right:25px;
+    padding: 5px 10px;
+    border-radius:10px;
+}
+
+
+.name input{
+    width: 190px;
+}
+
+
+.mobile {
+    text-align: center;
+    padding-top: .5em;
+    height: 5px;
+}
+
+.mobile input {
+    width: 435px;
+}
+
+#phone{
+    padding: 5px 10px;
+    border-radius:10px;
+}
+
+.email {
+    text-align: center;
+    padding-top: 2em;
+    height: 5px;
+}
+
+.email input {
+    width:435px;
+}
+
+#mail {
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.passwords {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.passwords input {
+    width: 190px;
+}
+
+.passwords .password {
+    margin-right: 60px;
+}
+
+#password1 {
+    position: relative;
+    left: 15px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+#password2 {
+    position: relative;
+    right: 15px;
+    padding: 5px 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.agreement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.box {
+    position: relative;
+    left: 70px;
+    top: 10px;
+}
+
+.para {
+    font-size: 10px;
+}
+
+.para .btn-small {
+    color:white;
+    background-color: royalblue;
+    border: none;
+    border-radius: 5px;
+}
+
+.para span {
+    color: blue;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons .btn{
+    border: none;
+    padding: 10px 80px;
+    border-radius: 5px;
+}
+
+.buttons .register {
+    position: relative;
+    left: 60px;
+    background-color: royalblue;
+    color:white;
+}
+
+.buttons .signin {
+    position: relative;
+    right: 45px;
+    background-color: green;
+    color: white;
+}
+
+
+
